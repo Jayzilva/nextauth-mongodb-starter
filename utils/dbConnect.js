@@ -8,7 +8,7 @@ https://github.com/vercel/next.js/blob/canary/examples/with-mongodb-mongoose/uti
 **/
 
 
-const MONGODB_URI = process.env.DB_URI
+const MONGODB_URI = "mongodb+srv://gitjay:XHJmHd!9sgBChpG@cluster0.6m6ry1s.mongodb.net/?retryWrites=true&w=majority"
 
 if (!MONGODB_URI) {
   throw new Error(
